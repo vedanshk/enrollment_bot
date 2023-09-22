@@ -18,4 +18,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/vedanshk/student-info-chatbot.git
+   git clone https://github.com/vedanshk/enrollment_bot.git
