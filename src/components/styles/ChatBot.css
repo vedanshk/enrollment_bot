@@ -1,0 +1,11 @@
+.bot-message {
+    text-align: left;
+    background-color: #f0f0f0; 
+  }
+  
+  .user-message {
+    text-align: right;
+    background-color: #dbdbdb;
+
+ 
+  }

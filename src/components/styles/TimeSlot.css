@@ -1,0 +1,43 @@
+/* TimeSlot.css */
+.time-slot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all contents horizontally */
+    gap: 1rem;
+  }
+  
+  .time-period {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all contents horizontally */
+    gap: 0.5rem; /* Reduce the gap between periods */
+  }
+  
+  .time-slot-row {
+    display: flex;
+    gap: 0.5rem; /* Reduce the gap between time slots */
+  }
+  
+  .time-slot-button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: lightblack;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .time-slot-button.selected {
+    color: lightteal;
+    background-color: white;
+  }
+  
+  /* Add hover effect */
+  .time-slot-button:hover {
+    background-color: lightteal; /* Change to the color you prefer on hover */
+    color: #90EE90; /* Change to the text color you prefer on hover */
+  }
+  
+  /* Add any other styles you want here */
+  
